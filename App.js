@@ -23,7 +23,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         { 
-        /*
+        
         user ? (
           <>
           <Stack.Screen name="Home">
@@ -31,8 +31,8 @@ export default function App() {
           </Stack.Screen>
           </>
         ) : (
-        */
-        }
+        
+        
           <>
             <Stack.Screen name="LoginScreen" component={LoginScreen} />
             <Stack.Screen name="HomeScreen" component={HomeScreen} />
@@ -40,6 +40,7 @@ export default function App() {
             <Stack.Screen name="RegistrationScreen" component={RegistrationScreen} />          
           </>
 
+        )}
       </Stack.Navigator>
     </NavigationContainer>
   );
